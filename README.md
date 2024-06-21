@@ -22,7 +22,7 @@ npm install -g firebase-function-config-uploader
 ## Usage
 
 ```sh
-firebase-function-config-uploader --configSrc=./runtimeconfig.json --keysToUpload=key1,key2,key3 --project=projectId
+config-uploader --configSrc=./runtimeconfig.json --keysToUpload=key1,key2,key3 --project=projectId
 ```
 
 ### Options
@@ -36,25 +36,25 @@ firebase-function-config-uploader --configSrc=./runtimeconfig.json --keysToUploa
 ### Upload All Keys from Configuration File
 
 ```sh
-firebase-function-config-uploader --configSrc=./.runtimeconfig.json
+config-uploader --configSrc=./.runtimeconfig.json
 ```
 
 ### Upload Specific Keys from Configuration File
 
 ```sh
-firebase-function-config-uploader --configSrc=./.runtimeconfig.json --keysToUpload=key1,key2
+config-uploader --configSrc=./.runtimeconfig.json --keysToUpload=key1,key2
 ```
 
 ### Upload to a Specific Project
 
 ```sh
-firebase-function-config-uploader --configSrc=./.runtimeconfig.json --project=my-firebase-project
+config-uploader --configSrc=./.runtimeconfig.json --project=my-firebase-project
 ```
 
 ### Upload Specific Keys to a Specific Project
 
 ```sh
-firebase-function-config-uploader --configSrc=./.runtimeconfig.json --keysToUpload=key1,key2 --project=my-firebase-project
+config-uploader --configSrc=./.runtimeconfig.json --keysToUpload=key1,key2 --project=my-firebase-project
 ```
 
 ## How It Works
