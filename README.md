@@ -71,7 +71,7 @@ firebase-function-config-uploader --configSrc=./.runtimeconfig.json --keysToUplo
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Contributions
 
