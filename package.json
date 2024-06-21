@@ -1,0 +1,31 @@
+{
+  "name": "firebase-function-config-uploader",
+  "version": "1.0.0",
+  "description": "A CLI tool designed to simplify the process of uploading configuration settings to Firebase functions. It reads configuration data from a specified JSON file and uploads it to Firebase, either for all keys or a subset of keys. Additionally, it supports switching the active Firebase project before uploading the configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js"
+  },
+  "bin": {
+    "config-uploader": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TakasiVenkataSandeep-08/firebase-function-config-uploader.git"
+  },
+  "keywords": [
+    "firebase",
+    "config",
+    "uploader",
+    "cli",
+    "firebase-functions",
+    "automation"
+  ],
+  "author": "Takasi Venkata Sandeep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TakasiVenkataSandeep-08/firebase-function-config-uploader/issues"
+  },
+  "homepage": "https://github.com/TakasiVenkataSandeep-08/firebase-function-config-uploader#readme"
+}
